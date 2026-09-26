@@ -6,10 +6,10 @@
       "enabled": true,
       "title": "Nowy sezon!",
       "description": "Dołącz na play.twoj-serwer.pl. Czekają na Ciebie nowe tryby, wydarzenia i nagrody.",
-      "mode": "session",
-      "delayMinutes": 10,
-      "intervalMinutes": 60,
-      "durationSeconds": 12
+      "mode": "repeat",
+      "delayMinutes": 1,
+      "intervalMinutes": 1,
+      "durationSeconds": 10
     }
   ]
 }
