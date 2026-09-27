@@ -1,4 +1,26 @@
 {
+  "_help": {
+    "note": "Pola _help i _template są instrukcją; mod je ignoruje. Dostępne są tylko dwa sloty: klejtxt i partner. Skopiuj _template do odpowiedniego wpisu w slots.",
+    "enabled": "Główny przełącznik zakładek partnerów.",
+    "slots[].id": "Tylko klejtxt albo partner; inne ID nie tworzą nowych zakładek.",
+    "slots[].enabled": "Pokazuje lub ukrywa daną zakładkę.",
+    "slots[].title": "Tytuł zakładki.",
+    "slots[].description": "Lista maksymalnie pięciu krótkich linii opisu.",
+    "slots[].button": "Napis na przycisku.",
+    "slots[].url": "Pełny adres HTTPS otwierany przyciskiem.",
+    "slots[].icon": "Pełny adres HTTPS do białej ikony PNG; zalecane 64x64 px. Przy zmianie pliku pod tym samym adresem dodaj ?v=2.",
+    "slots[].iconColor": "Kolor białej ikony w formacie #RRGGBB; nie zmienia tła ani obramowania."
+  },
+  "_template": {
+    "id": "partner",
+    "enabled": false,
+    "title": "Nazwa partnera",
+    "description": ["Pierwsza linia opisu.", "Druga linia opisu."],
+    "button": "Odwiedź stronę",
+    "url": "https://example.com",
+    "icon": "https://raw.githubusercontent.com/depozytek/PvP-Visuals/main/assets/partner-white.png",
+    "iconColor": "#E91E82"
+  },
   "enabled": true,
   "slots": [
     {
