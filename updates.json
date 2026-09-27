@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "updates": [
+    {
+      "id": "nowa-wersja-01",
+      "enabled": true,
+      "title": "Nowa wersja moda",
+      "description": "Pobierz najnowszą wersję i sprawdź zmiany.",
+      "button": "Otwórz Modrinth",
+      "url": "https://modrinth.com/"
+    }
+  ]
+}
