@@ -1,4 +1,19 @@
 {
+  "_help": {
+    "note": "Pola _help i _template są instrukcją; mod je ignoruje. Skopiuj obiekt z _template do tablicy servers i uzupełnij dane.",
+    "enabled": "Główny przełącznik dodawania serwerów. false nie usuwa już dodanych wpisów.",
+    "servers[].enabled": "Czy ten konkretny serwer ma być dodawany nowym graczom.",
+    "servers[].name": "Nazwa wyświetlana na liście serwerów.",
+    "servers[].address": "Adres IP lub domena serwera.",
+    "servers[].position": "top = początek listy, bottom = koniec listy.",
+    "removal": "Usunięcie serwera z tablicy usuwa wcześniej automatycznie dodany wpis przy kolejnym odświeżeniu listy Multiplayer."
+  },
+  "_template": {
+    "enabled": false,
+    "name": "Nazwa serwera",
+    "address": "play.example.com",
+    "position": "top"
+  },
   "enabled": false,
   "servers": [
     {
