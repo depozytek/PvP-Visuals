@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "servers": [
+    {
+      "enabled": true,
+      "name": "Serwer Minecrafta",
+      "address": "play.twoj-serwer.pl",
+      "position": "top"
+    }
+  ]
+}
