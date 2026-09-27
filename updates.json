@@ -1,4 +1,22 @@
 {
+  "_help": {
+    "note": "Pola _help i _template są instrukcją; mod je ignoruje. Skopiuj obiekt z _template do tablicy updates.",
+    "enabled": "Główny przełącznik wiadomości o aktualizacjach na czacie.",
+    "updates[].id": "Unikalne ID; wiadomość pokazuje się najwyżej raz podczas uruchomienia gry.",
+    "updates[].enabled": "Włącza pojedynczą wiadomość.",
+    "updates[].title": "Tytuł wiadomości.",
+    "updates[].description": "Opis aktualizacji.",
+    "updates[].button": "Tekst klikalnego odnośnika.",
+    "updates[].url": "Pełny adres HTTPS, najlepiej do strony konkretnej wersji moda."
+  },
+  "_template": {
+    "id": "nowa-wersja-02",
+    "enabled": false,
+    "title": "Nowa wersja moda",
+    "description": "Sprawdź, co się zmieniło.",
+    "button": "Pobierz aktualizację",
+    "url": "https://modrinth.com/"
+  },
   "enabled": false,
   "updates": [
     {
