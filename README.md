@@ -3,7 +3,6 @@
 Mod pobiera te pliki z GitHuba. Pozwalają zmieniać wybrane treści bez wydawania nowego pliku JAR:
 
 - `config.json` - zarządza serwerami dodawanymi do listy Multiplayer.
-- `announcements.json` - steruje reklamami wyświetlanymi na HUD.
 - `updates.json` - steruje klikalnymi wiadomościami o aktualizacjach na czacie.
 - `partners.json` - steruje dwiema zakładkami promocyjnymi w menu.
 - `assets/klejtxt-logo-white.png` - logo pierwszej zakładki.
